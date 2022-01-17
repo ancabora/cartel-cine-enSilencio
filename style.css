@@ -1,0 +1,81 @@
+body {
+  background-color: #051c1c;
+  /* Cambiar la imagen */
+  background-image: url("ensilencio.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  color: white;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+  padding: 0;
+}
+.wrapper {
+  margin: 70px auto 30px;
+  max-width: 850px;
+  padding: 0px;
+  position: relative;
+  /* Change the text-shadow */
+  text-shadow: 3px 3px 3px rgb(235, 6, 6);
+}
+h1,
+h2 {
+  font-family: georgia, serif;
+  font-style: italic;
+  font-weight: normal;
+  text-shadow: 4px 4px 12px rgb(118, 3, 153);
+}
+h1 {
+  font-size: 116px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  line-height: 1em;
+}
+h2 {
+  color: rgb(31, 6, 143);
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+h2 span {
+  text-transform: uppercase;
+  color: rgb(243, 16, 16);
+}
+.actors {
+  list-style-type: none;
+
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0 0 40px 0;
+}
+.actors li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+blockquote {
+  display: inline-block;
+  width: 28%;
+  margin: 0 2%;
+  font-size: 20px;
+}
+blockquote .star {
+  font-size: 40px;
+  display: block;
+}
+blockquote footer {
+  display: block;
+  font-size: 80%;
+}
+
+.creditos {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.creditos strong {
+  font-size: 17px;
+}
+p{
+  color: rgb(240, 224, 224);
+}
